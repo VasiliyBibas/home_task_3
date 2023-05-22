@@ -3,6 +3,26 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color: #000;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 2px solid #000;  */
+}
+
 .top {
 
 }
@@ -15,24 +35,44 @@
     box-sizing: border-box;
 }
 
+.header-wrp {
+    display: flex;
+    gap: 475px;
+    box-sizing: border-box;
+}
+
 .header-icon {
+ 
 
 }
 
-.header-menu {
-
+.header-icon-link {
+    display: flex;
+    gap: 14px;
+    align-items: center;
 }
+
+/* .header-menu { */
+    
+
+/* } */
 
 .header-menu-list {
-
+    list-style: none;
+    margin: 0;
+    height: 20px;
+    display: flex;
+    gap: 40px;
+    /* outline: 2px solid #000;  */
 }
 
 .header-menu-item {
-
+    margin-top: 12px;
 }
 
 .menu-link {
-
+    color: #000;
+    
 }
 
 /* =====  END HEADER ====== */
@@ -40,27 +80,77 @@
 /* =====  TOP-INFO ====== */
 
 .top-info {
-    margin: 0 0 162px 0;
+    margin: 0 auto 162px auto;
+    display: flex;
+    gap: 39px;
 }
 
 .top-info-content {
-
+    max-width: 522px;
 }
 
 .top-content-title {
     margin: 0 0 17px 0;
+    font-size: 60px;
+    line-height: 70px;
 }
 
 .top-content-txt {
     margin: 0 0 37px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
 .top-content-btn-wrp {
-
+    display: flex;
+    gap: 72px;
 }
 
 .top-content-btn {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    background-color: #F25822;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
 
+.top-content-btn-right {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: none;
+    color: #aaa; 
+}
+
+.top-content-btn:hover {
+    background-color: #fff;
+    color: #F25822;
+    cursor: pointer;
+}
+
+.top-content-btn:active {
+    background-color: #F25822;
+    color: #fff;
+}
+
+.top-content-btn-right:hover {
+    background-color: #fff;
+    color: #F25822;
+    cursor: pointer;
+}
+
+.top-content-btn-right:active {
+    color: #aaa;
 }
 
 .top-info-img {
@@ -72,11 +162,14 @@
 /* =====  TOP-LOGOS ====== */
 
 .top-logos {
-
+    
 }
 
 .top-logos-list {
-
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .top-logos-item {
